@@ -380,12 +380,8 @@ void snd_jack_report(struct snd_jack *jack, int status)
 					    status & testbit);
 	}
 
-<<<<<<< HEAD
-	input_sync(jack->input_dev);
-=======
 	input_sync(idev);
 	input_put_device(idev);
->>>>>>> 3ce89e393b97a3d7f7d90c8188e7813b4f04620d
 #endif /* CONFIG_SND_JACK_INPUT_DEV */
 }
 EXPORT_SYMBOL(snd_jack_report);
