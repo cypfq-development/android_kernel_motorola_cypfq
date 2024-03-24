@@ -605,7 +605,6 @@ CONFIG_EFI_EARLYCON=y
 #
 # end of Tegra firmware driver
 
-CONFIG_QTI_TZ_LOG=y
 # CONFIG_MSM_TZ_QSEE_LOG is not set
 # end of Firmware Drivers
 
@@ -4568,7 +4567,6 @@ CONFIG_DMA_OF=y
 # CONFIG_QCOM_HIDMA_MGMT is not set
 # CONFIG_QCOM_HIDMA is not set
 CONFIG_MSM_GPI_DMA=y
-CONFIG_MSM_GPI_DMA_DEBUG=y
 # CONFIG_QCOM_PCI_EDMA is not set
 # CONFIG_DW_DMAC is not set
 # CONFIG_DW_DMAC_PCI is not set
